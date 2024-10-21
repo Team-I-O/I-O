@@ -158,6 +158,10 @@ code = codes()
 
 
 running = True
+
+next = False
+
+# 게임 시작
 while running:
     dt = clock.tick(60)
     # 이벤트 처리

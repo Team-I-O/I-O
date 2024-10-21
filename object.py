@@ -1,6 +1,8 @@
 import os
 import pygame
 
+pygame.font.init()
+
 img_path = os.path.join(os.path.dirname(__file__), 'img')
 
 
